@@ -1,0 +1,14 @@
+course_id,skill_id,provenance
+course-cs50x,skill-c-programming,curated_seed; official_provider_page_verified:2026-10-27
+course-cs50x,skill-data-structures-and-algorithms,curated_seed; official_provider_page_verified:2026-10-27
+course-cs50x,skill-python,curated_seed; official_provider_page_verified:2026-10-27
+course-cs50x,skill-sql,curated_seed; official_provider_page_verified:2026-10-27
+course-full-stack-open,skill-react,curated_seed; official_provider_page_verified:2026-10-27
+course-full-stack-open,skill-node-js,curated_seed; official_provider_page_verified:2026-10-27
+course-full-stack-open,skill-rest-apis,curated_seed; official_provider_page_verified:2026-10-27
+course-full-stack-open,skill-software-testing,curated_seed; official_provider_page_verified:2026-10-27
+course-machine-learning-specialization,skill-machine-learning,curated_seed; official_provider_page_verified:2026-10-27
+course-machine-learning-specialization,skill-statistics,curated_seed; official_provider_page_verified:2026-10-27
+course-machine-learning-specialization,skill-python,curated_seed; official_provider_page_verified:2026-10-27
+course-machine-learning-specialization,skill-model-evaluation,curated_seed; official_provider_page_verified:2026-10-27
+course-react-quick-start,skill-react,curated_seed; official_provider_page_verified:2026-10-27

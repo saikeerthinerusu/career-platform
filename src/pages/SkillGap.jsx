@@ -1,134 +1,146 @@
 import { useEffect, useState } from "react";
 import api from "../api";
 
-function SkillGap() {
+export default function SkillGap() {
   const [careers, setCareers] = useState([]);
-  const [selectedCareer, setSelectedCareer] = useState("");
+  const [careerId, setCareerId] = useState("");
+  const [skills, setSkills] = useState([]);
+  const [graph, setGraph] = useState({ nodes: [], edges: [] });
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
   useEffect(() => {
-    const fetchCareers = async () => {
+    async function loadData() {
       try {
-        const response = await api.get("/career-recommendations");
-        const data = response.data.recommendations || [];
+        const [graphResponse, skillsResponse] = await Promise.all([
+          api.get("/api/skillbridge/graph"),
+          api.get("/skills"),
+        ]);
 
-        setCareers(data);
+        const nodes = graphResponse.data.nodes || [];
+        setGraph({
+          nodes,
+          edges: graphResponse.data.edges || [],
+        });
 
-        if (data.length > 0) {
-          setSelectedCareer(data[0].career);
+        setSkills(skillsResponse.data || []);
+
+        const available = nodes.filter(
+          (node) => node.type === "career_role"
+        );
+
+        setCareers(available);
+
+        if (available.length) {
+          setCareerId(available[0].id);
         }
       } catch (err) {
         setError(
-          err.response?.data?.detail ||
-            "Could not load skill gap. Please login again and retry."
+          err.response?.data?.detail || "Unable to load skill gap data."
         );
       } finally {
         setLoading(false);
       }
-    };
+    }
 
-    fetchCareers();
+    loadData();
   }, []);
 
-  const careerData = careers.find(
-    (item) => item.career === selectedCareer
+  const selectedCareer = careers.find(
+    (career) => career.id === careerId
   );
 
-  if (loading) return <p>Loading skill gap...</p>;
-  if (error) return <p>{error}</p>;
+  const requiredSkills = graph.edges
+    .filter(
+      (edge) =>
+        edge.target === careerId &&
+        edge.relation === "required_for"
+    )
+    .map((edge) =>
+      graph.nodes.find((node) => node.id === edge.source)
+    )
+    .filter(Boolean);
 
-  
+  const studentSkillNames = new Set(
+    skills.map((skill) => skill.name.trim().toLowerCase())
+  );
+
+  const matchedSkills = requiredSkills.filter((skill) =>
+    studentSkillNames.has(skill.name.trim().toLowerCase())
+  );
+
+  const missingSkills = requiredSkills.filter(
+    (skill) =>
+      !studentSkillNames.has(skill.name.trim().toLowerCase())
+  );
+
+  const percentage = requiredSkills.length
+    ? Math.round(
+        (matchedSkills.length / requiredSkills.length) * 100
+      )
+    : 0;
+
+  if (loading) return <div className="page-content">Loading skill gap...</div>;
+
   return (
-    <div className="page-content skill-gap-page">
-      <div className="skill-gap-header">
-        <h1>Skill Gap Analysis</h1>
-        <p>
-          Understand which skills you have and which skills to learn.
-        </p>
-      </div>
+    <div className="page-content">
+      <h1>Skill Gap Analysis</h1>
+      <p>Compare your saved skills with your target career requirements.</p>
 
-      <div className="gap-selector">
-        <label htmlFor="career-select">Select Target Career</label>
+      {error && <p role="alert">{error}</p>}
+
+      <div className="roadmap-selector">
+        <label htmlFor="career-select">Choose Career</label>
         <select
           id="career-select"
-          value={selectedCareer}
-          onChange={(e) => setSelectedCareer(e.target.value)}
+          value={careerId}
+          onChange={(e) => setCareerId(e.target.value)}
         >
-          {careers.map((item) => (
-            <option key={item.career} value={item.career}>
-              {item.career}
+          {careers.map((career) => (
+            <option key={career.id} value={career.id}>
+              {career.name}
             </option>
           ))}
         </select>
       </div>
 
-      {careerData && (
+      {selectedCareer && (
         <>
-          <div className="gap-career-card">
-            <h2>{careerData.career}</h2>
-            <p>{careerData.description}</p>
-
-            <div className="gap-score">
-              <span>Career Match Score</span>
-              <strong>{careerData.match_score ?? 0}%</strong>
-            </div>
-
-            <div className="gap-progress">
+          <div className="roadmap-progress-card">
+            <h2>{selectedCareer.name}</h2>
+            <h2>{percentage}% Career Skill Match</h2>
+            <p>
+              {matchedSkills.length} of {requiredSkills.length} skills matched
+            </p>
+            <div className="roadmap-progress-track">
               <div
-                className="gap-progress-fill"
-                style={{
-                  width: `${careerData.match_score ?? 0}%`,
-                }}
+                className="roadmap-progress-fill"
+                style={{ width: `${percentage}%` }}
               />
             </div>
           </div>
 
-          <div className="gap-sections">
-            <section className="gap-section strong">
-              <h3>✅ Strong Skills</h3>
-              {careerData.strong_skills?.length ? (
-                <div className="gap-tags">
-                  {careerData.strong_skills.map((skill) => (
-                    <span key={skill}>{skill}</span>
-                  ))}
-                </div>
+          <div className="skill-gap-grid">
+            <section className="roadmap-progress-card">
+              <h2>✅ Skills You Have ({matchedSkills.length})</h2>
+              {matchedSkills.length ? (
+                matchedSkills.map((skill) => (
+                  <p key={skill.id}>🟢 {skill.name}</p>
+                ))
               ) : (
-                <p>No strong skills identified yet.</p>
+                <p>No matching saved skills yet.</p>
               )}
             </section>
 
-            <section className="gap-section partial">
-              <h3>🟡 Partial Skills</h3>
-              {careerData.partial_skills?.length ? (
-                <div className="gap-tags">
-                  {careerData.partial_skills.map((skill) => (
-                    <span key={skill}>{skill}</span>
-                  ))}
-                </div>
-              ) : (
-                <p>No partial skills identified yet.</p>
-              )}
-            </section>
-
-            <section className="gap-section missing">
-              <h3>📚 Missing Skills</h3>
-              {careerData.missing_skills?.length ? (
-                <div className="gap-tags">
-                  {careerData.missing_skills.map((skill) => (
-                    <span key={skill}>{skill}</span>
-                  ))}
-                </div>
-              ) : (
-                <p>No missing skills identified.</p>
-              )}
+            <section className="roadmap-progress-card">
+              <h2>📚 Skills to Learn ({missingSkills.length})</h2>
+              {missingSkills.map((skill) => (
+                <p key={skill.id}>🔴 {skill.name}</p>
+              ))}
             </section>
           </div>
         </>
       )}
     </div>
   );
-
 }
-
-export default SkillGap;

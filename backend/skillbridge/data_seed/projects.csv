@@ -1,0 +1,6 @@
+project_id,project_name,description,source_url,provenance,verification_status
+project-data-analysis-dashboard,Data Analysis Dashboard,"Build a small dashboard that cleans a public dataset, documents analysis choices, and presents findings.",,curated_seed,unverified
+project-accessible-portfolio,Accessible Portfolio Website,"Create a responsive portfolio with semantic HTML, CSS, keyboard navigation, and accessible interaction.",,curated_seed,unverified
+project-recommendation-engine,Learning Resource Recommendation Prototype,Build a small content-based recommender and explain how its feature and ranking choices work.,,curated_seed,unverified
+project-containerized-api,Containerized REST API,"Implement a documented API, add tests, and package it as a reproducible Docker deployment.",,curated_seed,unverified
+project-knowledge-graph-roadmap,Knowledge Graph Learning Roadmap,"Represent skills and prerequisites as a graph, validate links, and generate an ordered learning path.",,curated_seed,unverified

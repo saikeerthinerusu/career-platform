@@ -18,6 +18,7 @@ from pydantic import BaseModel, Field
 from models import StudentProfile, StudentSkill
 from models import Career, CareerSkill, StudentSkill
 from career_engine import rank_careers
+from skillbridge.graph.knowledge_graph import build_graph
 from datetime import datetime
 from models import RoadmapStep, RoadmapProgress, StudentFeedback
 from agent_v1 import generate_career_advice
@@ -62,7 +63,21 @@ def health_check(db: Session = Depends(get_db)):
         "status": "healthy",
         "database": "connected",
     }
+@app.get("/api/skillbridge/graph")
+def skillbridge_graph():
+    try:
+        graph = build_graph()
 
+        return {
+            "message": "SkillBridge graph loaded successfully",
+            "nodes": graph.nodes,
+            "edges": graph.edges,
+            "node_count": len(graph.nodes),
+            "edge_count": len(graph.edges)
+        }
+
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 class RegisterRequest(BaseModel):
     username: str = Field(min_length=3, max_length=80)
     email: EmailStr

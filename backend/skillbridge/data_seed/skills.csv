@@ -1,0 +1,303 @@
+skill_id,skill_name,category,proficiency,description,provenance,source_url,verification_status
+skill-c-programming,C Programming,Programming,Beginner,C programming fundamentals,curated_seed,,unverified
+skill-c-plus-plus-programming,C++ Programming,Programming,Intermediate,C++ programming and object oriented concepts,curated_seed,,unverified
+skill-data-structures-and-algorithms,Data Structures and Algorithms,Computer Science,Intermediate,Problem solving with data structures and algorithms,curated_seed,,unverified
+skill-object-oriented-programming,Object Oriented Programming,Computer Science,Intermediate,Object oriented design principles,curated_seed,,unverified
+skill-operating-systems,Operating Systems,Computer Science,Intermediate,Processes threads memory and scheduling,curated_seed,,unverified
+skill-computer-networks,Computer Networks,Computer Science,Intermediate,Networking protocols and communication,curated_seed,,unverified
+skill-software-engineering,Software Engineering,Software Engineering,Intermediate,Software development lifecycle and practices,curated_seed,,unverified
+skill-system-design,System Design,Software Engineering,Advanced,Designing scalable software systems,curated_seed,,unverified
+skill-design-patterns,Design Patterns,Software Engineering,Advanced,Reusable software design solutions,curated_seed,,unverified
+skill-software-testing,Software Testing,Software Engineering,Intermediate,Testing software functionality and quality,curated_seed,,unverified
+skill-unit-testing,Unit Testing,Software Engineering,Intermediate,Testing individual software components,curated_seed,,unverified
+skill-debugging,Debugging,Software Engineering,Beginner,Finding and fixing software defects,curated_seed,,unverified
+skill-api-testing,API Testing,Software Engineering,Intermediate,Testing API endpoints and responses,curated_seed,,unverified
+skill-typescript,TypeScript,Programming,Intermediate,Typed JavaScript development,curated_seed,,unverified
+skill-angular,Angular,Web Development,Intermediate,Building web applications with Angular,curated_seed,,unverified
+skill-vue-js,Vue.js,Web Development,Intermediate,Building interfaces with Vue.js,curated_seed,,unverified
+skill-next-js,Next.js,Web Development,Advanced,Building React applications with Next.js,curated_seed,,unverified
+skill-responsive-web-design,Responsive Web Design,Web Development,Beginner,Designing websites for different screen sizes,curated_seed,,unverified
+skill-accessibility,Accessibility,Web Development,Intermediate,Building accessible digital interfaces,curated_seed,,unverified
+skill-ui-ux-design,UI UX Design,Design,Intermediate,User interface and experience design,curated_seed,,unverified
+skill-express-js,Express.js,Backend Development,Intermediate,Building Node.js web servers,curated_seed,,unverified
+skill-django,Django,Backend Development,Intermediate,Building Python web applications,curated_seed,,unverified
+skill-flask,Flask,Backend Development,Intermediate,Building lightweight Python web applications,curated_seed,,unverified
+skill-authentication-and-authorization,Authentication and Authorization,Backend Development,Intermediate,Managing identity and access control,curated_seed,,unverified
+skill-microservices,Microservices,Backend Development,Advanced,Designing independently deployable services,curated_seed,,unverified
+skill-message-queues,Message Queues,Backend Development,Advanced,Asynchronous communication between services,curated_seed,,unverified
+skill-redis,Redis,Database,Intermediate,In memory data storage and caching,curated_seed,,unverified
+skill-mongodb,MongoDB,Database,Intermediate,Working with document databases,curated_seed,,unverified
+skill-database-design,Database Design,Database,Intermediate,Designing normalized relational data models,curated_seed,,unverified
+skill-database-indexing,Database Indexing,Database,Advanced,Improving database query performance,curated_seed,,unverified
+skill-database-transactions,Database Transactions,Database,Advanced,Maintaining database consistency,curated_seed,,unverified
+skill-orm,ORM,Backend Development,Intermediate,Mapping application objects to database tables,curated_seed,,unverified
+skill-etl,ETL,Data Engineering,Intermediate,Extracting transforming and loading data,curated_seed,,unverified
+skill-data-cleaning,Data Cleaning,AI and Data Science,Beginner,Handling missing values duplicates and inconsistent data,curated_seed,,unverified
+skill-exploratory-data-analysis,Exploratory Data Analysis,AI and Data Science,Intermediate,Discovering patterns in datasets,curated_seed,,unverified
+skill-probability,Probability,Mathematics,Intermediate,Probability concepts for computing and AI,curated_seed,,unverified
+skill-linear-algebra,Linear Algebra,Mathematics,Intermediate,Vectors matrices and linear transformations,curated_seed,,unverified
+skill-calculus,Calculus,Mathematics,Intermediate,Derivatives gradients and optimization,curated_seed,,unverified
+skill-feature-engineering,Feature Engineering,AI and Data Science,Advanced,Creating useful model input features,curated_seed,,unverified
+skill-model-evaluation,Model Evaluation,AI and Data Science,Intermediate,Evaluating predictive model performance,curated_seed,,unverified
+skill-supervised-learning,Supervised Learning,AI and Data Science,Intermediate,Learning from labeled examples,curated_seed,,unverified
+skill-unsupervised-learning,Unsupervised Learning,AI and Data Science,Intermediate,Finding patterns in unlabeled data,curated_seed,,unverified
+skill-reinforcement-learning,Reinforcement Learning,AI and Data Science,Advanced,Learning through actions and rewards,curated_seed,,unverified
+skill-natural-language-processing,Natural Language Processing,AI and Data Science,Advanced,Processing and analyzing human language,curated_seed,,unverified
+skill-computer-vision,Computer Vision,AI and Data Science,Advanced,Analyzing images and visual data,curated_seed,,unverified
+skill-generative-ai,Generative AI,AI and Data Science,Advanced,Building applications with generative models,curated_seed,,unverified
+skill-large-language-models,Large Language Models,AI and Data Science,Advanced,Understanding and using large language models,curated_seed,,unverified
+skill-prompt-engineering,Prompt Engineering,AI and Data Science,Intermediate,Designing effective prompts for AI systems,curated_seed,,unverified
+skill-rag,RAG,AI and Data Science,Advanced,Grounding language model responses in retrieved information,curated_seed,,unverified
+skill-vector-databases,Vector Databases,Database,Advanced,Storing and searching vector embeddings,curated_seed,,unverified
+skill-knowledge-graphs,Knowledge Graphs,AI and Data Science,Advanced,Representing entities and their relationships,curated_seed,,unverified
+skill-graph-neural-networks,Graph Neural Networks,AI and Data Science,Advanced,Learning from graph structured data,curated_seed,,unverified
+skill-graph-algorithms,Graph Algorithms,Computer Science,Advanced,Analyzing relationships and paths in graphs,curated_seed,,unverified
+skill-recommendation-systems,Recommendation Systems,AI and Data Science,Advanced,Personalizing items and opportunities for users,curated_seed,,unverified
+skill-model-deployment,Model Deployment,AI and Data Science,Advanced,Deploying trained models for application use,curated_seed,,unverified
+skill-mlflow,MLflow,AI and Data Science,Advanced,Tracking machine learning experiments and models,curated_seed,,unverified
+skill-apache-spark,Apache Spark,Data Engineering,Advanced,Distributed processing of large datasets,curated_seed,,unverified
+skill-apache-kafka,Apache Kafka,Data Engineering,Advanced,Streaming event data between services,curated_seed,,unverified
+skill-data-warehousing,Data Warehousing,Data Engineering,Advanced,Organizing analytical data for reporting,curated_seed,,unverified
+skill-power-bi,Power BI,Data Visualization,Intermediate,Creating interactive business intelligence reports,curated_seed,,unverified
+skill-tableau,Tableau,Data Visualization,Intermediate,Creating interactive data visualizations,curated_seed,,unverified
+skill-microsoft-excel,Microsoft Excel,Data Analysis,Beginner,Spreadsheet analysis and reporting,curated_seed,,unverified
+skill-linux,Linux,Cloud and DevOps,Intermediate,Using Linux systems and command line tools,curated_seed,,unverified
+skill-bash-scripting,Bash Scripting,Cloud and DevOps,Intermediate,Automating tasks with shell scripts,curated_seed,,unverified
+skill-docker,Docker,Cloud and DevOps,Intermediate,Packaging applications into containers,curated_seed,,unverified
+skill-kubernetes,Kubernetes,Cloud and DevOps,Advanced,Orchestrating containerized applications,curated_seed,,unverified
+skill-ci-cd,CI CD,Cloud and DevOps,Advanced,Automating software integration and deployment,curated_seed,,unverified
+skill-aws,AWS,Cloud and DevOps,Intermediate,Using Amazon cloud services,curated_seed,,unverified
+skill-microsoft-azure,Microsoft Azure,Cloud and DevOps,Intermediate,Using Microsoft cloud services,curated_seed,,unverified
+skill-google-cloud-platform,Google Cloud Platform,Cloud and DevOps,Intermediate,Using Google cloud services,curated_seed,,unverified
+skill-infrastructure-as-code,Infrastructure as Code,Cloud and DevOps,Advanced,Managing infrastructure through code,curated_seed,,unverified
+skill-cybersecurity-fundamentals,Cybersecurity Fundamentals,Cybersecurity,Beginner,Core security principles and threats,curated_seed,,unverified
+skill-web-application-security,Web Application Security,Cybersecurity,Intermediate,Identifying common web application vulnerabilities,curated_seed,,unverified
+skill-oauth-2-0,OAuth 2.0,Security,Advanced,Delegated authorization for applications,curated_seed,,unverified
+skill-agile-and-scrum,Agile and Scrum,Software Engineering,Beginner,Iterative development and team collaboration,curated_seed,,unverified
+skill-python,Python,Programming,Beginner,"General-purpose programming language used for scripting, data analysis, and application development.",curated_seed,,unverified
+skill-java,Java,Programming,Intermediate,Object-oriented programming language used for applications and backend services.,curated_seed,,unverified
+skill-javascript,JavaScript,Programming,Beginner,Programming language commonly used for interactive web applications.,curated_seed,,unverified
+skill-html,HTML,Web Development,Beginner,Markup language for structuring web content.,curated_seed,,unverified
+skill-css,CSS,Web Development,Beginner,Stylesheet language for presenting web content.,curated_seed,,unverified
+skill-react,React,Web Development,Intermediate,JavaScript library for building component-based user interfaces.,curated_seed,,unverified
+skill-node-js,Node.js,Backend Development,Intermediate,JavaScript runtime used to build server-side applications.,curated_seed,,unverified
+skill-rest-apis,REST APIs,Backend Development,Intermediate,HTTP interfaces that expose application resources and operations.,curated_seed,,unverified
+skill-sql,SQL,Database,Beginner,Language for querying and managing relational databases.,curated_seed,,unverified
+skill-git,Git,Software Engineering,Beginner,Distributed version control system for tracking source changes.,curated_seed,,unverified
+skill-machine-learning,Machine Learning,AI and Data Science,Intermediate,Methods that learn predictive or descriptive patterns from data.,curated_seed,,unverified
+skill-statistics,Statistics,Mathematics,Intermediate,Methods for summarizing data and reasoning under uncertainty.,curated_seed,,unverified
+skill-pandas,Pandas,AI and Data Science,Intermediate,Python library for tabular data manipulation and analysis.,curated_seed,,unverified
+skill-numpy,NumPy,AI and Data Science,Intermediate,Python library for numerical arrays and scientific computing.,curated_seed,,unverified
+skill-data-analysis,Data Analysis,AI and Data Science,Beginner,"Inspecting, transforming, and interpreting data to answer questions.",curated_seed,,unverified
+skill-scikit-learn,Scikit-learn,AI and Data Science,Intermediate,Python library for classical machine-learning workflows.,curated_seed,,unverified
+skill-pytorch,PyTorch,AI and Data Science,Advanced,Tensor library and framework used to build and train neural networks.,curated_seed,,unverified
+skill-tensorflow,TensorFlow,AI and Data Science,Advanced,Machine-learning platform for building and deploying models.,curated_seed,,unverified
+skill-postgresql,PostgreSQL,Database,Intermediate,Open-source relational database management system.,curated_seed,,unverified
+skill-kotlin,Kotlin,Programming,Intermediate,Statically typed language used for Android and server development.,curated_seed,,unverified
+skill-swift,Swift,Programming,Intermediate,Programming language for Apple-platform software.,curated_seed,,unverified
+skill-c-sharp,C#,Programming,Intermediate,Object-oriented language used for application and game development.,curated_seed,,unverified
+skill-network-security,Network Security,Cybersecurity,Intermediate,Protecting computer networks and communications from threats.,curated_seed,,unverified
+skill-cryptography,Cryptography,Cybersecurity,Advanced,Techniques for protecting information and communications.,curated_seed,,unverified
+skill-ethical-hacking,Ethical Hacking,Cybersecurity,Intermediate,Authorized security testing to identify weaknesses.,curated_seed,,unverified
+skill-penetration-testing,Penetration Testing,Cybersecurity,Advanced,Authorized assessment of systems through controlled attack simulation.,curated_seed,,unverified
+skill-security-auditing,Security Auditing,Cybersecurity,Intermediate,Reviewing systems and controls against defined security requirements.,curated_seed,,unverified
+skill-distributed-systems,Distributed Systems,Computer Science,Advanced,Systems whose components coordinate across multiple networked machines.,curated_seed,,unverified
+skill-ar-vr-development,AR/VR Development,Immersive Technology,Intermediate,Creating augmented- and virtual-reality software experiences.,curated_seed,,unverified
+skill-software-architecture,Software Architecture,Software Engineering,Advanced,Structuring software components and their interactions.,curated_seed,,unverified
+skill-deep-learning,Deep Learning,AI and Data Science,Advanced,Machine-learning methods based on multi-layer neural networks.,curated_seed,,unverified
+skill-onet-reading-comprehension,Reading Comprehension,Communication Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-active-listening,Active Listening,Communication Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-writing,Writing,Communication Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-speaking,Speaking,Communication Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-mathematics,Mathematics,Cognitive Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-critical-thinking,Critical Thinking,Cognitive Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-active-learning,Active Learning,Cognitive Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-learning-strategies,Learning Strategies,Cognitive Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-monitoring,Monitoring,Cognitive Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-coordination,Coordination,Interpersonal Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-instructing,Instructing,Communication Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-complex-problem-solving,Complex Problem Solving,Cognitive Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-operations-analysis,Operations Analysis,Cognitive Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-programming,Programming,Technical Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-judgment-and-decision-making,Judgment and Decision Making,Cognitive Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-systems-analysis,Systems Analysis,Cognitive Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-systems-evaluation,Systems Evaluation,Cognitive Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-technology-design,Technology Design,Technical Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-time-management,Time Management,Other Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-operations-monitoring,Operations Monitoring,Technical Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-quality-control-analysis,Quality Control Analysis,Technical Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-ajax,AJAX,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-amazon-dynamodb,Amazon DynamoDB,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-amazon-elastic-compute-cloud-ec2,Amazon Elastic Compute Cloud EC2,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-amazon-redshift,Amazon Redshift,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-amazon-web-services-aws-cloudformation,Amazon Web Services AWS CloudFormation,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-amazon-web-services-aws-software,Amazon Web Services AWS software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-ansible-software,Ansible software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-apache-airflow,Apache Airflow,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-apache-cassandra,Apache Cassandra,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-apache-hadoop,Apache Hadoop,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-apache-hive,Apache Hive,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-apache-maven,Apache Maven,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-apache-subversion-svn,Apache Subversion SVN,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-apache-tomcat,Apache Tomcat,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-apple-macos,Apple macOS,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-atlassian-confluence,Atlassian Confluence,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-atlassian-jira,Atlassian JIRA,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-autodesk-revit,Autodesk Revit,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-bash,Bash,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-c,C,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-c-cedb1bac7e,C++,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-cascading-style-sheets-css,Cascading style sheets CSS,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-chef,Chef,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-cisco-webex,Cisco Webex,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-eclipse-ide,Eclipse IDE,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-elasticsearch,Elasticsearch,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-epic-systems,Epic Systems,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-esri-arcgis-software,ESRI ArcGIS software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-extensible-markup-language-xml,Extensible markup language XML,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-github,GitHub,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-go,Go,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-google-analytics,Google Analytics,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-google-angular,Google Angular,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-hibernate-orm,Hibernate ORM,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-hypertext-markup-language-html,Hypertext markup language HTML,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-ibm-db2,IBM DB2,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-ibm-spss-statistics,IBM SPSS Statistics,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-ibm-terraform,IBM Terraform,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-informatica-software,Informatica software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-javascript-object-notation-json,JavaScript Object Notation JSON,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-jquery,jQuery,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-junit,JUnit,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-marketo-marketing-automation,Marketo Marketing Automation,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-net-framework,Microsoft .NET Framework,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-access,Microsoft Access,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-active-server-pages-asp,Microsoft Active Server Pages ASP,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-asp-net,Microsoft ASP.NET,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-azure-data-factory,Microsoft Azure Data Factory,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-azure-software,Microsoft Azure software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-office-software,Microsoft Office software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-outlook,Microsoft Outlook,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-power-bi,Microsoft Power BI,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-powerpoint,Microsoft PowerPoint,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-powershell,Microsoft PowerShell,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-project,Microsoft Project,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-sharepoint,Microsoft SharePoint,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-sql-server,Microsoft SQL Server,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-sql-server-integration-services-ssis,Microsoft SQL Server Integration Services SSIS,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-sql-server-reporting-services-ssrs,Microsoft SQL Server Reporting Services SSRS,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-visio,Microsoft Visio,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-visual-basic,Microsoft Visual Basic,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-visual-basic-for-applications-vba,Microsoft Visual Basic for Applications VBA,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-visual-studio,Microsoft Visual Studio,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-windows,Microsoft Windows,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-windows-server,Microsoft Windows Server,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-word,Microsoft Word,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-mysql,MySQL,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-nosql,NoSQL,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-oracle-database,Oracle Database,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-oracle-java,Oracle Java,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-oracle-peoplesoft,Oracle PeopleSoft,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-oracle-pl-sql,Oracle PL/SQL,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-oracle-primavera-enterprise-project-portfolio-management,Oracle Primavera Enterprise Project Portfolio Management,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-oracle-sql-developer,Oracle SQL Developer,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-perl,Perl,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-php,PHP,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-puppet,Puppet,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-pyspark,PySpark,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-r,R,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-red-hat-enterprise-linux,Red Hat Enterprise Linux,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-red-hat-openshift,Red Hat OpenShift,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-relational-database-management-system-software,Relational database management system software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-ruby,Ruby,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-salesforce-software,Salesforce software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-sap-software,SAP software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-sas,SAS,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-scala,Scala,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-selenium,Selenium,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-shell-script,Shell script,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-snowflake,Snowflake,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-splunk-enterprise,Splunk Enterprise,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-spring-boot,Spring Boot,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-spring-framework,Spring Framework,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-structured-query-language-sql,Structured query language SQL,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-teradata-database,Teradata Database,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-the-mathworks-matlab,The MathWorks MATLAB,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-transact-sql,Transact-SQL,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-unix,UNIX,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-unix-shell,UNIX Shell,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-adobe-acrobat,Adobe Acrobat,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-adobe-after-effects,Adobe After Effects,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-adobe-creative-cloud-software,Adobe Creative Cloud software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-adobe-illustrator,Adobe Illustrator,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-adobe-indesign,Adobe InDesign,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-adobe-photoshop,Adobe Photoshop,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-alteryx-software,Alteryx software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-apple-ios,Apple iOS,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-atlassian-bitbucket,Atlassian Bitbucket,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-bootstrap,Bootstrap,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-border-gateway-protocol-bgp,Border Gateway Protocol BGP,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-figma,Figma,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-gitlab,GitLab,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-google-android,Google Android,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-google-docs,Google Docs,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-google-looker-analytics,Google Looker Analytics,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-google-sheets,Google Sheets,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-grafana-labs-grafana-cloud,Grafana Labs Grafana Cloud,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-graphql,GraphQL,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-ibm-websphere-mq,IBM WebSphere MQ,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-jenkins-ci,Jenkins CI,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-active-directory,Microsoft Active Directory,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-power-automate,Microsoft Power Automate,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-power-platform-software,Microsoft Power Platform software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-team-foundation-server,Microsoft Team Foundation Server,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-teams,Microsoft Teams,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-oracle-cloud-software,Oracle Cloud software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-oracle-java-2-platform-enterprise-edition-j2ee,Oracle Java 2 Platform Enterprise Edition J2EE,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-prometheus,Prometheus,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-restful-api,RESTful API,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-sap-erp,SAP ERP,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-servicenow,ServiceNow,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-slack,Slack,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-trimble-sketchup-pro,Trimble SketchUp Pro,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-wordpress,WordPress,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-workday-software,Workday software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-zoom,Zoom,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-apache-jmeter,Apache JMeter,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-appium,Appium,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-apple-safari,Apple Safari,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-autodesk-autocad,Autodesk AutoCAD,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-bentley-microstation,Bentley MicroStation,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-azure-devops-services,Microsoft Azure DevOps Services,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-microsoft-playwright,Microsoft Playwright,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-mozilla-firefox,Mozilla Firefox,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-postman,Postman,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-rest-assured,REST Assured,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-testng,TestNG,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-facebook,Facebook,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-hubspot-software,HubSpot software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-javascript-framework-software,JavaScript framework software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-web-application-software,Web application software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-science,Science,Cognitive Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-social-perceptiveness,Social Perceptiveness,Interpersonal Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-service-orientation,Service Orientation,Interpersonal Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-troubleshooting,Troubleshooting,Technical Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-management-of-personnel-resources,Management of Personnel Resources,Management Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-persuasion,Persuasion,Communication Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-equipment-selection,Equipment Selection,Technical Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-equipment-maintenance,Equipment Maintenance,Technical Skills,Not specified by source,O*NET occupation skill.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-emass,eMASS,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-firewall-software,Firewall software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-mitre-att-ck-software,MITRE ATT&CK software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-tenable-nessus,Tenable Nessus,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-dassault-systemes-solidworks,Dassault Systemes SolidWorks,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-meditech-software,MEDITECH software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-yardi-software,Yardi software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-kali-linux,Kali Linux,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-metasploit,Metasploit,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-nmap,Nmap,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-portswigger-burp-suite,Portswigger BurP Suite,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-qualys-cloud-platform,Qualys Cloud Platform,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-single-sign-on-sso,Single sign-on SSO,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-google-workspace-software,Google Workspace software,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-rust-programming-language,Rust programming language,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
+skill-onet-solidity,Solidity,Software Technology,Not specified by source,O*NET software technology workplace example.,onet_database_31.0,https://www.onetcenter.org/database.html,unverified
